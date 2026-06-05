@@ -1,8 +1,10 @@
 # Linux Rollout Status
 
-Checked on 2026-06-05. Rechecked after infra map cleanup: `ai-asus` and `n15`
-are still offline in Headscale and unreachable over SSH. `n15` is also
-unreachable from `mias01` over office LAN address `192.168.0.119`.
+Checked on 2026-06-05. Latest rollout check: 2026-06-05 23:19 MSK.
+Reachable Linux hosts still report the MIAS user-mode browser with the expected
+customization hash. `ai-asus` and `n15` are still offline in Headscale and
+unreachable over SSH. `n15` is also unreachable from `mias01` over office LAN
+address `192.168.0.119`. Windows host `hp-msk` was not touched.
 
 ## Installed
 
