@@ -40,6 +40,12 @@ cd yandex-browser-mias-installer
 
 This creates `~/bin/yandex-browser-mias`, registers user desktop entries, sets HTTP/HTTPS/HTML defaults to `yandex-browser-mias.desktop`, and adds a desktop shortcut.
 
+One-command user install from GitHub:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/petrov5391/mias-yandex-browser-installer/main/install-user-from-github.sh | bash
+```
+
 ## Verified
 
 Checked on 2026-06-05:
