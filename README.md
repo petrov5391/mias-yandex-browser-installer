@@ -66,8 +66,9 @@ Checked on 2026-06-05:
 - `mias01` user install: `mias` and `mias01` both run `Yandex 26.3.5.855` from `~/.local/opt/yandex-browser-mias`.
 - `mias01` GUI smoke: browser starts from the user install and exposes corporate policy markers.
 - `ai-hp` Arch smoke: user-mode install works without `dpkg-deb` through the `ar`/`bsdtar` fallback and reports `Yandex 26.3.5.855`.
+- `ai-samsung` user install: browser runs `Yandex 26.3.5.855` from `~/.local/opt/yandex-browser-mias`.
 - r4 archive README is current and documents the non-Debian user-mode extraction path.
 
 On `mias01`, the regular system package `yandex-browser-stable` is still installed until an administrator password is available for a full system replacement. The user install is already selected as the default browser through `xdg-settings`.
 
-Network note: `ai-hp` and `hp-msk` are separate Tailnet machines. `ai-hp` is registered separately as `ai-hp` at `100.64.0.7`; `hp-msk` is `100.64.0.6`.
+Network note: `ai-hp` and `hp-msk` are separate Tailnet machines. `ai-hp` is registered separately as `ai-hp` at `100.64.0.7`; `hp-msk` is `100.64.0.6` and is excluded from Linux-only installation because it is Windows.

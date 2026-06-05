@@ -23,12 +23,15 @@
     "date": "2026-06-05",
     "hosts": [
       "mias01",
-      "ai-hp"
+      "ai-hp",
+      "ai-samsung"
     ],
     "notes": [
       "mias01 users mias and mias01 verified in user-mode",
       "ai-hp Arch verified in user-mode without dpkg-deb",
-      "ai-hp and hp-msk are separate Tailnet machines"
+      "ai-samsung verified in user-mode",
+      "ai-hp and hp-msk are separate Tailnet machines",
+      "hp-msk is Windows and excluded from Linux-only installation"
     ]
   }
 }
