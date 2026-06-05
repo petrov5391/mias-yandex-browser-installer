@@ -1,7 +1,8 @@
 # Linux Rollout Status
 
 Checked on 2026-06-05. Rechecked after infra map cleanup: `ai-asus` and `n15`
-are still offline in Headscale and unreachable over SSH.
+are still offline in Headscale and unreachable over SSH. `n15` is also
+unreachable from `mias01` over office LAN address `192.168.0.119`.
 
 ## Installed
 
@@ -17,6 +18,10 @@ Customization `partner_config` SHA256 on installed hosts:
 | `mias01` | `100.64.0.1` | `mias01` | `/home/mias01/.local/opt/yandex-browser-mias` | `Yandex 26.3.5.855` | `yandex-browser-mias.desktop` |
 | `ai-hp` | `100.64.0.7` | `user` | `/home/user/.local/opt/yandex-browser-mias` | `Yandex 26.3.5.855` | `yandex-browser-mias.desktop` |
 | `ai-samsung` | `100.64.0.5` | `ai-samsung` | `/home/ai-samsung/.local/opt/yandex-browser-mias` | `Yandex 26.3.5.855` | `yandex-browser-mias.desktop` |
+
+`ai-hp` Tailnet check: `tailscaled` is active/enabled, `tailscale ip -4`
+returns `100.64.0.7`, and pings from `ai-hp` to `x79` and `ai-samsung`
+are OK.
 
 ## Pending
 
