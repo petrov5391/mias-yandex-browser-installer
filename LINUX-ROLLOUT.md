@@ -31,3 +31,15 @@ For online Linux hosts:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/petrov5391/mias-yandex-browser-installer/main/install-user-from-github.sh | bash
 ```
+
+To check known Linux hosts from the operator workstation:
+
+```bash
+./rollout-linux-hosts.sh
+```
+
+To install/update all reachable Linux hosts from the operator workstation:
+
+```bash
+./rollout-linux-hosts.sh --install
+```
