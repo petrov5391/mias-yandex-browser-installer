@@ -1,6 +1,7 @@
 # Linux Rollout Status
 
-Checked on 2026-06-05.
+Checked on 2026-06-05. Rechecked after infra map cleanup: `ai-asus` and `n15`
+are still offline in Headscale and unreachable over SSH.
 
 ## Installed
 
@@ -19,7 +20,7 @@ Customization `partner_config` SHA256 on installed hosts:
 
 ## Pending
 
-These Linux hosts were offline in Headscale and were not modified:
+These Linux hosts are offline in Headscale and were not modified:
 
 | Host | Tailnet IP | Status |
 | --- | --- | --- |
@@ -28,7 +29,7 @@ These Linux hosts were offline in Headscale and were not modified:
 
 ## Excluded
 
-`hp-msk` is a Windows host at `100.64.0.6` and is intentionally excluded from this Linux-only rollout.
+`hp-msk` is a Windows host at `100.64.0.6` and is intentionally excluded from this Linux-only rollout. It is a separate machine from home-LAN `ai-hp`.
 
 ## Install Command
 
