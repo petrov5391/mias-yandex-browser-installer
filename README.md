@@ -2,6 +2,8 @@
 
 Public backup release for the custom MIAS Yandex Browser organization package.
 
+Machine-readable current release metadata: [`current-release.json`](current-release.json).
+
 ## Download
 
 Latest release asset:
