@@ -4,6 +4,12 @@ Checked on 2026-06-05.
 
 ## Installed
 
+Customization `partner_config` SHA256 on installed hosts:
+
+```text
+54808b71381467858731ade41aced72a606eddb6d511dff5bd374ccd83cabc28
+```
+
 | Host | Tailnet IP | User | Install root | Version | Default browser |
 | --- | --- | --- | --- | --- | --- |
 | `mias01` | `100.64.0.1` | `mias` | `/home/buh/.local/opt/yandex-browser-mias` | `Yandex 26.3.5.855` | `yandex-browser-mias.desktop` |
